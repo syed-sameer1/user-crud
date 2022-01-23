@@ -1,0 +1,40 @@
+h1 {
+  margin: 0;
+  padding: 30px;
+  color: white;
+  font-weight: 700;
+}
+.todo-list-container {
+  width: 800px;
+  margin: auto;
+  background: white;
+  max-width: 90%;
+  border-radius: 10px;
+  .input-div {
+    text-align: center;
+    padding-top: 30px;
+    input {
+      width: 261px;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #37adfa;
+      &:focus-visible {
+        outline: none;
+        border-color: #2e8fff;
+      }
+    }
+    span {
+      margin: 0 20px;
+      background: #8181de;
+      color: white;
+      display: inline-block;
+      border-radius: 20px;
+      padding: 7px 20px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+  .list-div {
+    padding: 25px 0;
+  }
+}

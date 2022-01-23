@@ -1,0 +1,44 @@
+.todo-container {
+  .todo-title {
+    span {
+      svg {
+      }
+    }
+  }
+  .buttons-div {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    .status-button {
+      padding: 6px 20px;
+      background: #228522;
+      border-radius: 10px;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+    .incomplete-button {
+      padding: 6px 20px;
+      border: 1px solid #228522;
+      border-radius: 10px;
+      color: #228522;
+      font-size: 14px;
+      font-weight: 600;
+      margin-right: 15px;
+      cursor: pointer;
+      background-color: white;
+    }
+    .delete-button {
+      padding: 6px 20px;
+      background: #ce3434;
+      border-radius: 10px;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+  }
+}
